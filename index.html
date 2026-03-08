@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Романтичная страница-поздравление с 8 Марта.">
+  <title>С 8 Марта, Любимая! 💐</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='88'>🌹</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="preloader" aria-hidden="true">
+    <div class="preloader-heart">💖</div>
+    <p class="preloader-text">Для тебя, Любимая...</p>
+  </div>
+
+  <div class="petals-container" aria-hidden="true"></div>
+  <div class="heart-explosion" aria-hidden="true"></div>
+
+  <dialog class="modal" aria-label="Просмотр фото">
+    <button class="modal-close" type="button" aria-label="Закрыть фото">✕</button>
+    <img class="modal-image" alt="Открытое фото">
+  </dialog>
+
+  <header class="hero">
+    <div class="hero-particles" aria-hidden="true"></div>
+    <div class="hero-content">
+      <p class="hero-date">8 марта</p>
+      <h1 class="hero-title">С праздником, <span>Любимая!</span></h1>
+      <p class="hero-subtitle">Самой прекрасной девушке на свете</p>
+      <p class="hero-flower" aria-hidden="true">🌷 🌹 🌸</p>
+      <button class="hero-cta" type="button" data-scroll="#greeting">Открыть поздравление</button>
+    </div>
+    <button class="scroll-indicator" type="button" data-scroll="#greeting">Листай вниз</button>
+  </header>
+
+  <main>
+    <section class="section greeting-section reveal" id="greeting">
+      <article class="panel greeting">
+        <h2 class="section-title">Дорогая Любимая</h2>
+        <p class="lead-text">
+          Сегодня особенный день. Спасибо за твою нежность, силу, поддержку и улыбку, которая делает мой мир светлее.
+          Ты вдохновляешь меня каждый день, и рядом с тобой я становлюсь лучше. С 8 Марта тебя, мое сердце.
+        </p>
+      </article>
+    </section>
+
+    <section class="section reveal">
+      <article class="panel poem-wrapper">
+        <h2 class="section-title section-title-invert">Небольшой стих для тебя</h2>
+        <div class="poem">
+          <p class="stanza">Весна пришла и расцвела,<br>Как будто в честь твоей улыбки.<br>Ты в сердце нежность принесла,<br>С тобой все дни теплы и гибки.</p>
+          <p class="stanza">Твои глаза как звездный свет,<br>Твой голос - тихая мелодия.<br>Тебя прекрасней в мире нет,<br>Ты счастье, радость и гармония.</p>
+          <p class="stanza">Пусть будет ярким каждый день,<br>Пусть сбудутся мечты любые.<br>Пусть не коснется тебя тень,<br>Любовь хранит часы земные.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="section reveal">
+      <h2 class="section-title">Цветы для тебя</h2>
+      <div class="gallery-grid">
+        <figure class="gallery-card">
+          <img src="https://images.unsplash.com/photo-1487530811176-3780de880c2d?auto=format&fit=crop&w=900&q=80" alt="Нежные розовые тюльпаны" loading="lazy">
+          <figcaption class="overlay">Нежные тюльпаны 🌷</figcaption>
+        </figure>
+        <figure class="gallery-card">
+          <img src="https://images.unsplash.com/photo-1455659817273-f96807779a8a?auto=format&fit=crop&w=900&q=80" alt="Пышные пионы в букете" loading="lazy">
+          <figcaption class="overlay">Пышные пионы 🌸</figcaption>
+        </figure>
+        <figure class="gallery-card">
+          <img src="https://images.unsplash.com/photo-1561181286-d3fee7d55364?auto=format&fit=crop&w=900&q=80" alt="Элегантный букет роз" loading="lazy">
+          <figcaption class="overlay">Букет с любовью 💐</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <h2 class="section-title">Почему ты особенная</h2>
+      <div class="qualities-grid">
+        <article class="quality-card"><span class="quality-icon">✨</span><h3>Красота</h3><p>Невероятная внешне и прекрасная душой.</p></article>
+        <article class="quality-card"><span class="quality-icon">💗</span><h3>Доброта</h3><p>Твое сердце умеет согревать даже в самый сложный день.</p></article>
+        <article class="quality-card"><span class="quality-icon">🌟</span><h3>Ум</h3><p>С тобой интересно всегда: ты мудрая, глубокая и яркая.</p></article>
+        <article class="quality-card"><span class="quality-icon">😊</span><h3>Улыбка</h3><p>Твоя улыбка для меня лучше любого солнца.</p></article>
+        <article class="quality-card"><span class="quality-icon">💪</span><h3>Сила</h3><p>Ты умеешь идти вперед и вдохновляешь меня делать так же.</p></article>
+        <article class="quality-card"><span class="quality-icon">🕊️</span><h3>Нежность</h3><p>В тебе удивительно сочетаются мягкость и тепло.</p></article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <article class="panel wishes">
+        <h2 class="section-title">Мои пожелания</h2>
+        <p class="lead-text">
+          Пусть каждый твой день будет наполнен радостью, легкостью и любовью. Пусть мечты сбываются, планы складываются,
+          а рядом всегда будут забота, поддержка и вдохновение. Спасибо, что ты есть.
+        </p>
+        <p class="wishes-hearts" aria-hidden="true">💖 💗 💕 💗 💖</p>
+      </article>
+    </section>
+
+    <section class="section love-btn-wrapper reveal">
+      <button class="love-btn" type="button">💖 Нажми, если любишь меня 💖</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer-text">С любовью, для Евы 💕</p>
+    <p class="footer-sub">8 марта 2026</p>
+    <p class="footer-hearts" aria-hidden="true">💖🌹💖</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
